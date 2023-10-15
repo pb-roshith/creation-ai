@@ -1,0 +1,25 @@
+.marquee-container {
+    height: 30px;
+    overflow: hidden;
+    line-height: 30px;
+  }
+
+  .marquee-container .marquee {
+    top: 0;
+    left: 100%;
+    width: 100%;
+    /* overflow: hidden; */
+    position: absolute;
+    white-space: nowrap;
+    animation: marquee 15s linear infinite;
+  }
+  
+  @keyframes marquee {
+    0% {
+      left: 100%;
+    }
+    100% {
+      left: -100%
+    }
+  }
+  

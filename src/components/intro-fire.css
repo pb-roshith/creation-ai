@@ -1,0 +1,41 @@
+.fire-circle {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #ff6600;
+    border-radius: 50%;
+    position: relative;
+    animation: spin 5s linear infinite;
+  }
+  
+  .flames {
+    width: 200px;
+    height: 200px;
+    border: 5px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    background: radial-gradient(circle, transparent 30%, #ff6600 70%);
+    animation: flicker 0.1s infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes flicker {
+    0%, 100% {
+      transform: scale(1);
+    }
+    25%, 75% {
+      transform: scale(1.1);
+    }
+    50% {
+      transform: scale(0.9);
+    }
+  }

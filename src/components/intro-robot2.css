@@ -1,0 +1,90 @@
+.robott {
+    position: relative;
+    width: 150px;
+    height: 200px;
+    margin: 0 auto;
+    animation: dancee 2s infinite;
+  }
+
+  .headd {
+    background: #333;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+  }
+
+  .bodyy {
+    background: #555;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 70px;
+    left: 25px;
+    border-radius: 5px;
+  }
+
+  .left-legg, .right-legg {
+    background: #333;
+    width: 20px;
+    height: 70px;
+    position: absolute;
+    top: 100px;
+  }
+
+  .left-legg {
+    left: 45px;
+  }
+
+  .right-legg {
+    left: 85px;
+  }
+
+  .left-armm, .right-armm {
+    background: #555;
+    width: 20px;
+    height: 70px;
+    position: absolute;
+    top: 30px;
+  }
+
+  .left-armm {
+    left: 5px;
+    transform-origin: 50% 0;
+    animation: armDance 2s infinite alternate;
+  }
+
+  .right-armm {
+    right: 5px;
+    transform-origin: 50% 0;
+    animation: armDance 2s infinite alternate;
+  }
+
+  @keyframes dancee {
+    0% {
+      transform: translateX(0) rotate(0deg);
+    }
+    25% {
+      transform: translateX(20px) rotate(5deg);
+    }
+    50% {
+      transform: translateX(0) rotate(0deg);
+    }
+    75% {
+      transform: translateX(-20px) rotate(-5deg);
+    }
+    100% {
+      transform: translateX(0) rotate(0deg);
+    }
+  }
+
+  @keyframes armDance {
+    0%, 100% {
+      transform: scaleY(1);
+    }
+    50% {
+      transform: scaleY(0.8);
+    }
+  }
