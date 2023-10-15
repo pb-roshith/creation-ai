@@ -13,7 +13,7 @@ const Home = () => {
         backgroundPosition:'center',
         backgroundRepeat:'no-repeat',
         backgroundAttachment:'fixed',
-        height:'750px',
+        height:'650px',
         zIndex:'100',
         position:'relative'
         }}>
