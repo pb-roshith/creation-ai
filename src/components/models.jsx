@@ -152,7 +152,7 @@ const particlesLoaded = useCallback(async container => {
               
               <Col xs={12} sm={12} md={12} lg={6}>
                 <h1 style={{marginTop:'20px'}}>Chat Bot</h1>
-                <p style={{marginTop:'40px', maxWidth:'400px'}}> It uses natural language processing and machine learning to understand and respond to human queries, making it a valuable tool for customer support, virtual assistants, and various applications, improving user interactions and automating tasks.</p>
+                <p style={{marginTop:'40px', maxWidth:'400px'}}>It uses natural language processing and machine learning to understand and respond to human queries, making it a valuable tool for customer support, virtual assistants, and various applications, improving user interactions and automating tasks.</p>
                 <Button href='https://huggingface.co/spaces/ysharma/Explore_llamav2_with_TGI' variant="outline-danger" size="lg">Check Out</Button>
               </Col>
               <Col xs={12} sm={12} md={12} lg={6}>
@@ -164,9 +164,9 @@ const particlesLoaded = useCallback(async container => {
               <img style={{boxShadow:'0 0 30px 20px #FF69B4', width:'80%'}} src="https://res.cloudinary.com/dlnrtg1q3/image/upload/v1697043967/creation%20ai/peakpx_8_e2uxtl.jpg" alt="" />
               </Col>
               <Col xs={12} sm={12} md={12} lg={6}>
-                <h1 style={{marginTop:'20px'}}>Image Classification</h1>
-                <p style={{marginTop:'40px', maxWidth:'400px'}}>Image classification is the process of categorizing images into predefined classes or labels.</p>
-                <Button href='https://huggingface.co/spaces/roshithindia/text_calssification_model' variant="outline-danger" size="lg">Check Out</Button>
+                <h1 style={{marginTop:'20px'}}>Image To Anime</h1>
+                <p style={{marginTop:'40px', maxWidth:'400px'}}>Image to anime AI is a technology that transforms ordinary images or photographs into anime-style artwork, giving them a unique and artistic aesthetic inspired by Japanese animation.</p>
+                <Button href='https://huggingface.co/spaces/akhaliq/AnimeGANv2' variant="outline-danger" size="lg">Check Out</Button>
               </Col>
         </Row>
         <Row style={{marginBottom:'200px'}}>
