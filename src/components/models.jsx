@@ -122,9 +122,9 @@ const particlesLoaded = useCallback(async container => {
                 <img style={{boxShadow:'0 0 30px 20px #FF69B4', width:'80%'}} src="https://res.cloudinary.com/dlnrtg1q3/image/upload/v1697044007/creation%20ai/peakpx_5_mumhd9.jpg" alt="" />
               </Col>
               <Col xs={12} sm={12} md={12} lg={6}>
-                <h1 style={{marginTop:'20px'}}>Text Summarization</h1>
-                <p style={{marginTop:'40px', maxWidth:'400px'}}>Text summarization is an automated process that takes a lengthy document and produces a shorter, coherent summary while retaining the essential information and key points.</p>
-                <Button href='https://huggingface.co/spaces/roshithindia/text_summarization' variant="outline-danger" size="lg">Check Out</Button>
+                <h1 style={{marginTop:'20px'}}>Text-To-Image</h1>
+                <p style={{marginTop:'40px', maxWidth:'400px'}}>Text-to-image story generation AI is an advanced technology that can transform written narratives or textual descriptions into corresponding visual representations, such as images or illustrations. </p>
+                <Button href='https://huggingface.co/spaces/stabilityai/stable-diffusion' variant="outline-danger" size="lg">Check Out</Button>
               </Col>
         </Row>
         <Row style={{marginBottom:'200px'}}>
@@ -143,17 +143,17 @@ const particlesLoaded = useCallback(async container => {
               <img style={{boxShadow:'0 0 30px 20px #FF69B4', width:'80%'}} src="https://res.cloudinary.com/dlnrtg1q3/image/upload/v1697043968/creation%20ai/peakpx_4_dmxfry.jpg" alt="" />
               </Col>
               <Col xs={12} sm={12} md={12} lg={6}>
-                <h1 style={{marginTop:'20px'}}>Image-To-Text</h1>
-                <p style={{marginTop:'40px', maxWidth:'400px'}}>Image-to-Text refers to the process of describing the content of an image in textual form. This task involves generating captions or textual descriptions for images.</p>
-                <Button href='https://huggingface.co/spaces/roshithindia/image_to_text' variant="outline-danger" size="lg">Check Out</Button>
+                <h1 style={{marginTop:'20px'}}>Text-To-Video</h1>
+                <p style={{marginTop:'40px', maxWidth:'400px'}}>Text-to-video story generation AI is a cutting-edge technology that can convert written narratives or textual descriptions into video content.</p>
+                <Button href='https://huggingface.co/spaces/damo-vilab/modelscope-text-to-video-synthesis' variant="outline-danger" size="lg">Check Out</Button>
               </Col>
         </Row>
         <Row style={{marginBottom:'200px'}}>
               
               <Col xs={12} sm={12} md={12} lg={6}>
-                <h1 style={{marginTop:'20px'}}>Image Question Answering</h1>
-                <p style={{marginTop:'40px', maxWidth:'400px'}}>Image Question Answering is a task where a model is presented with an image and a question related to that image.</p>
-                <Button href='https://huggingface.co/spaces/roshithindia/imageQuestionAnswering' variant="outline-danger" size="lg">Check Out</Button>
+                <h1 style={{marginTop:'20px'}}>Chat Bot</h1>
+                <p style={{marginTop:'40px', maxWidth:'400px'}}> It uses natural language processing and machine learning to understand and respond to human queries, making it a valuable tool for customer support, virtual assistants, and various applications, improving user interactions and automating tasks.</p>
+                <Button href='https://huggingface.co/spaces/ysharma/Explore_llamav2_with_TGI' variant="outline-danger" size="lg">Check Out</Button>
               </Col>
               <Col xs={12} sm={12} md={12} lg={6}>
               <img style={{boxShadow:'0 0 30px 20px #FF69B4', width:'80%'}} src="https://res.cloudinary.com/dlnrtg1q3/image/upload/v1697043966/creation%20ai/peakpx_9_o3fhw2.jpg" alt="" />
@@ -172,9 +172,9 @@ const particlesLoaded = useCallback(async container => {
         <Row style={{marginBottom:'200px'}}>
               
               <Col xs={12} sm={12} md={12} lg={6}>
-                <h1 style={{marginTop:'20px'}}>Audio-To-Text</h1>
-                <p style={{marginTop:'40px', maxWidth:'400px'}}>Audio-to-Text, also known as Automatic Speech Recognition (ASR), is the technology that transcribes spoken language or audio content into written text.</p>
-                <Button variant="outline-danger" size="lg">Check Out</Button>
+                <h1 style={{marginTop:'20px'}}>Story Generation</h1>
+                <p style={{marginTop:'40px', maxWidth:'400px'}}>Story generation AI, often powered by natural language processing and deep learning techniques, is a type of AI that can create short stories, narratives, or text based on specific input or prompts.</p>
+                <Button href='https://huggingface.co/spaces/awacke1/ChatGPT-Memory-Chat-Story-Generator' variant="outline-danger" size="lg">Check Out</Button>
               </Col>
               <Col xs={12} sm={12} md={12} lg={6}>
               <img style={{boxShadow:'0 0 30px 20px #FF69B4', width:'80%'}} src="https://res.cloudinary.com/dlnrtg1q3/image/upload/v1697043966/creation%20ai/peakpx_7_d4jnpt.jpg" alt="" />
@@ -187,7 +187,7 @@ const particlesLoaded = useCallback(async container => {
               <Col xs={12} sm={12} md={12} lg={6}>
                 <h1 style={{marginTop:'20px'}}>Song-Generation</h1>
                 <p style={{marginTop:'40px', maxWidth:'400px'}}>A song generation model is an artificial intelligence system designed to create original musical compositions or lyrics.</p>
-                <Button variant="outline-danger" size="lg">Check Out</Button>
+                <Button href='https://huggingface.co/spaces/sanchit-gandhi/musicgen-streaming' variant="outline-danger" size="lg">Check Out</Button>
               </Col>
               
         </Row>
@@ -196,7 +196,7 @@ const particlesLoaded = useCallback(async container => {
               <Col xs={12} sm={12} md={12} lg={6}>
                 <h1 style={{marginTop:'20px'}}>Text-To-Audio</h1>
                 <p style={{marginTop:'40px', maxWidth:'400px'}}>Text-to-Audio, or Text-to-Speech (TTS), is a technology that converts written text into synthesized speech.</p>
-                <Button variant="outline-danger" size="lg">Check Out</Button>
+                <Button href='https://huggingface.co/spaces/zetabyte/text-to-voice' variant="outline-danger" size="lg">Check Out</Button>
               </Col>
               <Col xs={12} sm={12} md={12} lg={6}>
               <img style={{boxShadow:'0 0 30px 20px #FF69B4', width:'80%'}} src="https://res.cloudinary.com/dlnrtg1q3/image/upload/v1697043970/creation%20ai/peakpx_6_qunlvh.jpg" alt="" />
