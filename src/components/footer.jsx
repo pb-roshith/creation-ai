@@ -67,14 +67,13 @@ const Footer = () => {
                         <div>
                             <h1 className='text-center'>Our services</h1>
                                 <ul style={{listStyle:'none'}}>
-                                    <li><GiRobotGolem/> Text Summarization</li>
-                                    <li><GiRobotGolem/> Audio-To-Text</li>
                                     <li><GiRobotGolem/> Text-To-Audio</li>
-                                    <li><GiRobotGolem/> Sentiment-Analysis</li>
-                                    <li><GiRobotGolem/> Image Question Answering</li>
-                                    <li><GiRobotGolem/> Image Classification</li>
-                                    <li><GiRobotGolem/> Image-To-Text</li>
                                     <li><GiRobotGolem/> Song-Generation</li>
+                                    <li><GiRobotGolem/> Story Generation</li>
+                                    <li><GiRobotGolem/> Image To Anime</li>
+                                    <li><GiRobotGolem/> Chat Bot</li>
+                                    <li><GiRobotGolem/> Text-To-Video</li>
+                                    <li><GiRobotGolem/> Text-To-Image</li>
                                 </ul>
                         </div>
                     </Col>
