@@ -70,8 +70,6 @@ const Footer = () => {
                                     <li><GiRobotGolem/> Text-To-Audio</li>
                                     <li><GiRobotGolem/> Song-Generation</li>
                                     <li><GiRobotGolem/> Story Generation</li>
-                                    <li><GiRobotGolem/> Image To Anime</li>
-                                    <li><GiRobotGolem/> Chat Bot</li>
                                     <li><GiRobotGolem/> Text-To-Video</li>
                                     <li><GiRobotGolem/> Text-To-Image</li>
                                 </ul>
